@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+/* form */
+
+.formularioCotizar{
+    /* background-color: gainsboro; */
+    /* margin-left: 24px;
+    margin-right: 24px; */
+    padding: 50px;
+    font-size: small;
+    background-image: url(https://images.unsplash.com/photo-1636761358772-798789548d25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    color: gainsboro;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+.btn-primary{
+    font-size: small;
+
+}
+
+    /* QUIENES SOMOS */
+
+.lead {
+    padding: 15px;
+    font-size: 2rem;
+    font-weight: 600 ;
+    color: #2f2f2f;
+    background-color: gainsboro;
+}
+.text-start{
+    background-image: url(https://images.unsplash.com/photo-1636761358772-798789548d25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: gainsboro;
+    height: 500px;
+    padding: 40px;
+
+}
+
+.container-fluid nosotros{
+    background-size: cover;
+    
+}
+
+/* galeria */
+
+
+
+/* servicios */
+.servicios{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    padding: 25px;
+    
+}
+
+
+/* Rodá con Nosotros */
+.imgDgr{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.textoPasion{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 30%;
+    animation-name: textoAvanza;
+    animation-duration: 10s;
+    animation-iteration-count: initial;
+
+
+}
+
+
+
+
+
+
+
+
+
