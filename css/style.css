@@ -23,8 +23,17 @@
     margin-bottom: 0rem;
     height: 60px;
     padding-top: 15px;
-
 }
+
+/* SLIDER */
+
+.carousel-inner{
+    height: px;
+}
+
+
+
+
 
 
 /* form */
