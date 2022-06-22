@@ -7,9 +7,24 @@
     justify-content: flex-end;
 }
 
+/* texto Tu Moto debajo navbar*/
 
+.tuMoto{
+    background-color: gainsboro;
+    text-align: center;
+    font-size: large bolder;
+}
 
+.tuMoto hover{
+    color: aqua;
+}
 
+.texto{
+    margin-bottom: 0rem;
+    height: 60px;
+    padding-top: 15px;
+
+}
 
 
 /* form */
@@ -88,7 +103,10 @@
 
 }
 
-
+/* RESPONSIVE DESIGN - MEDIA QUERY - MOBILE LAST = MAX WIDTH */
+@media (max-width: 768px){
+    
+}
 
 
 
