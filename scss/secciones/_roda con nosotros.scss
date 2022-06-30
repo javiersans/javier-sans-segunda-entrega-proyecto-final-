@@ -1,0 +1,16 @@
+.bodyRoda{
+    div{
+        .lead{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: $fondosDivs;
+            padding: 25px;
+        }
+    }
+}
+
+.bodyRoda{
+    #navbarNavDropdown{
+        justify-content: flex-end;
+    }
+}
