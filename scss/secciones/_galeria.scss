@@ -1,4 +1,9 @@
-
+#body{
+    #navbarNavDropdown{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
 
 
 
@@ -7,7 +12,8 @@ body{
     div{
         .lead{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: flex-start;
+            font-size: 2rem;
             background-color: $fondosDivs;
             padding: 25px;
         }

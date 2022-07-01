@@ -7,9 +7,10 @@
             font-size: larger;
             font-weight: 400;
             margin-bottom: 0rem;
+            width: $ancho;
             height: 60px;
             padding-top: 15px; 
-            &:hover{
+                &:hover{
                 color: black;
                 
             }
