@@ -62,6 +62,13 @@ body div .lead {
   background-color: gainsboro;
   padding: 25px; }
 
+.servicios {
+  display: flex;
+  justify-content: space-between; }
+
+.servicios .card .card-body {
+  background-color: #e7e6e6; }
+
 #bodyQuienesSomos #navbarNavDropdown {
   justify-content: flex-end; }
 

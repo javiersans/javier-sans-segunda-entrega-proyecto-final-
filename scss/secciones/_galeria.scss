@@ -19,3 +19,17 @@ body{
         }
     }
 }
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.servicios{
+    .card{
+        .card-body{
+            @include card-body
+        }
+    }
+}
