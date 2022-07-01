@@ -1,0 +1,9 @@
+Modifiqué las etiquetas tittle de sección. Incluí en todas el nombre abreviado del proyecto y lo dividí manteniendo la sección
+
+Agregué palabras clave en etiquetas meta
+
+Controlé que estén los H1 en todas las secciones, y también las jerarquías de otros títulos
+
+agregué etiqueta meta en cada html. controlé longitud. 
+
+cuando hice la carpeta pages y pasé el html de quienes somos no pude volver a linkear (a pesar de que corregí en la etiqueta href la que iba a ser la nueva ruta. lo analizo y vuelvo a intentar mas adelante
