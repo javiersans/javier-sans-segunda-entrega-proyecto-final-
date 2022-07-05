@@ -36,7 +36,7 @@
                         <a class="nav-link" href="./galeria.html">Galería y servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./roda con nosotros.html">Rodá con nosotros</a>
+                        <a class="nav-link" href="./roda con nosotros.html">Fundación</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -52,20 +52,35 @@
     </div>  
     
     <main class="main">     
-        <img src="./img/plano.jpg" class="main__img" alt="plano">        
+        <img src="./img/etiqueta h red.jpg" class="main__img" alt="plano">        
         <div class="main__div">            
-            <ul class="main__ul">
-                <li>Domicilio Taller: Estados Unidos 256 - B° San Vicente - Córdoba</li>
-                <li>Domicilio para envío de piezas: San Jerónimo 384 - B° San Vicente - Córdoba</li>
-                <li>Teléfono: 0351 4846623</li>
-                <li>Email: taller_b&p@gmail.com</li>
-                <li>Horario taller: Lunes a Viernes de 8.00 a 13.00 y de 15.30 a 19.30 hs. Sábados de 8.00 a 13.00 hs</li>
-            </ul>
+            <form action="formContacto" method="post">
+                <ul>
+                    <li>
+                   <label for="name">Nombre:</label>
+                   <input type="text" id="name" name="user_name">
+                 </li>
+                 <li>
+                   <label for="mail">Email:</label>
+                   <input type="email" id="mail" name="user_mail">
+                 </li>
+                 <li>
+                   <label for="msg">Mensaje:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit">Enviar</button>
+                  </li>
+                </ul>
+               </form>
         </div>
     </main>
 
 
 
+<!-- divisor -->
+
+<section class="curved"></section>
 
 
 

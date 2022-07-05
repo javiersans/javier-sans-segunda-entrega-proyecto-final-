@@ -40,28 +40,15 @@
 
 
 #bodyIndex{
-    .custom-shape-divider-top-1657045174 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-    }
-    
-    .custom-shape-divider-top-1657045174 svg {
+    .curved {
         position: relative;
-        display: block;
-        width: calc(122% + 1.3px);
-        height: 36px;
+        background: #ffffff;
+        height: 1vh;
+        border-bottom-left-radius: 50% 6%;
+        border-bottom-right-radius: 50% 6%;
+      }
     }
-    
-    .custom-shape-divider-top-1657045174 .shape-fill {
-        fill: #FFFFFF;
-    }
-    
-        
-}
+
 
 
 

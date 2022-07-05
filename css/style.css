@@ -27,22 +27,12 @@
 #bodyIndex #navbarNavDropdown {
   justify-content: flex-end; }
 
-#bodyIndex .custom-shape-divider-top-1657045174 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-
-#bodyIndex .custom-shape-divider-top-1657045174 svg {
+#bodyIndex .curved {
   position: relative;
-  display: block;
-  width: calc(122% + 1.3px);
-  height: 36px; }
-
-#bodyIndex .custom-shape-divider-top-1657045174 .shape-fill {
-  fill: #FFFFFF; }
+  background: #ffffff;
+  height: 1vh;
+  border-bottom-left-radius: 50% 6%;
+  border-bottom-right-radius: 50% 6%; }
 
 @media (max-width: 768px) {
   #bodyIndex .titular .texto {
@@ -69,6 +59,9 @@
       margin: 5px;
       border-style: solid;
       border-color: #cccbcb; }
+
+#bodyIndex .formContacto {
+  background-image: none; }
 
 @media (max-width: 768px) {
   .main {
