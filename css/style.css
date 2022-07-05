@@ -27,6 +27,31 @@
 #bodyIndex #navbarNavDropdown {
   justify-content: flex-end; }
 
+#bodyIndex .custom-shape-divider-top-1657045174 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+
+#bodyIndex .custom-shape-divider-top-1657045174 svg {
+  position: relative;
+  display: block;
+  width: calc(122% + 1.3px);
+  height: 36px; }
+
+#bodyIndex .custom-shape-divider-top-1657045174 .shape-fill {
+  fill: #FFFFFF; }
+
+@media (max-width: 768px) {
+  #bodyIndex .titular .texto {
+    font-size: medium; } }
+
+@media (max-width: 425px) {
+  #bodyIndex .titular .texto {
+    font-size: small; } }
+
 .main {
   background-color: gainsboro;
   display: flex;
