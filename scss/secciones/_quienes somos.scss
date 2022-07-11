@@ -40,12 +40,26 @@
             font-size: 1rem;
             font-weight: 400;
             color: gainsboro;
-            height: 150px;
+            height: 180px;
             padding: 40px;
         }
     }
 }
 
 #bodyQuienesSomos{
-    
+    .container{
+        max-width: 600px;
+
+    }
+}
+
+
+@media (max-width: 768px){
+    #bodyQuienesSomos{
+        .container-fluid{
+            p{                                                               
+                font-size: 0.9rem ;
+            }
+        }
+    }
 }
