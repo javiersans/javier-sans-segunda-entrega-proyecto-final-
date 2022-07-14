@@ -79,6 +79,9 @@ body div .lead {
   font-size: 2rem;
   background-color: gainsboro;
   padding: 25px; }
+  body div .lead:hover {
+    color: black;
+    font-weight: 350; }
 
 .servicios {
   display: flex;
@@ -101,17 +104,17 @@ body div .lead {
   background-color: gainsboro;
   display: flex;
   justify-content: flex-start; }
-
-#bodyQuienesSomos div:hover {
-  color: black; }
+  #bodyQuienesSomos div .lead:hover {
+    color: black;
+    font-weight: 350; }
 
 #bodyQuienesSomos div .text-start {
   background-image: url(https://images.unsplash.com/photo-1636761358772-798789548d25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: gainsboro;
   height: 180px;
-  padding: 40px; }
+  padding: 60px; }
 
 #bodyQuienesSomos .container {
   max-width: 600px; }

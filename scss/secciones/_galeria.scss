@@ -16,6 +16,10 @@ body{
             font-size: 2rem;
             background-color: $fondosDivs;
             padding: 25px;
+                &:hover{
+                    color:black;
+                    font-weight: 350;
+        }    
         }
     }
 }
