@@ -18,7 +18,7 @@
             padding: 15px;
             font-size: 2rem;
             font-weight: 100 ;
-            color: #2f2f2f;
+            color: yellow;
             background-color: $fondosDivs;
             display: flex;
             justify-content: flex-start;
@@ -28,8 +28,15 @@
     }
 }
 
-
-            
+#bodyQuienesSomos{
+    div{
+        h1{
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
 
 
 
