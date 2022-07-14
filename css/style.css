@@ -114,8 +114,10 @@ body div .lead {
   padding: 40px; }
 
 #bodyQuienesSomos .container {
-  max-width: 600px;
-  background: linear-gradient(100deg, rgba); }
+  max-width: 600px; }
+
+#bodyQuienesSomos .navbar .container-fluid {
+  background-color: linear-gradient(100deg, #616161 0%, rgba(255, 255, 255, 0) 0.25%); }
 
 @media (max-width: 768px) {
   #bodyQuienesSomos .container-fluid p {
