@@ -18,7 +18,7 @@
             padding: 15px;
             font-size: 2rem;
             font-weight: 100 ;
-            color: yellow;
+            color: #2f2f2f;
             background-color: $fondosDivs;
             display: flex;
             justify-content: flex-start;
@@ -28,15 +28,7 @@
     }
 }
 
-#bodyQuienesSomos{
-    div{
-        h1{
-            &:hover{
-                color: black;
-            }
-        }
-    }
-}
+
 
 
 
@@ -48,7 +40,8 @@
             font-weight: 400;
             color: gainsboro;
             height: 180px;
-            padding: 40px;
+            padding: 90px;
+            
         }
     }
 }
