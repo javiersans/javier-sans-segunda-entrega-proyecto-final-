@@ -67,7 +67,7 @@
   .main {
     flex-direction: column; }
   __img {
-    whith: 50vw; } }
+    width: 50vw; } }
 
 #body #navbarNavDropdown {
   display: flex;
